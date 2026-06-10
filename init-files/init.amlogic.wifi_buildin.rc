@@ -1,2 +1,2 @@
 on boot
-    insmod /vendor/lib/modules/dhd.ko firmware_path=/vendor/firmware/wifi/6335/ nvram_path=/vendor/firmware/wifi/6335/
+    insmod /vendor/lib/modules/dhd.ko firmware_path=/vendor/firmware/wifi/fw_bcm43455c0_ag.bin nvram_path=/vendor/firmware/wifi/nvram_ap6255.txt
