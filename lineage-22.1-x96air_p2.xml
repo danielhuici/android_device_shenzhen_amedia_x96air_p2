@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="danielhuici/android_device_shenzhen_amedia_x96air_p2"
+           path="device/shenzhen_amedia/x96air_p2"
+           remote="github" revision="lineage-22.1-staging" />
+  <project name="MrArtemSid/android_device_amlogic_sepolicy"
+           path="device/amlogic/sepolicy"
+           remote="github" revision="lineage-22.1-staging" />
+  <project name="danielhuici/android_kernel_amlogic_linux-4.9"
+           path="kernel/amlogic/linux-4.9"
+           remote="github" revision="lineage-22.1-x96air_p2" />
+  <project name="MrArtemSid/android_hardware_amlogic_kernel-modules_openvfd"
+           path="kernel/amlogic/kernel-modules/openvfd"
+           remote="github" revision="staging" />
+  <project name="MrArtemSid/android_hardware_amlogic_kernel-modules_dhd-driver"
+           path="kernel/amlogic/kernel-modules/dhd-driver"
+           remote="github" revision="lineage-22.1-staging" />
+  <project name="LineageOS/android_device_amlogic_g12-common"
+           path="device/amlogic/g12-common"
+           remote="github" revision="lineage-22.1" />
+  <project name="LineageOS/android_device_amlogic_common"
+           path="device/amlogic/common"
+           remote="github" revision="lineage-22.1" />
+  <project name="LineageOS/android_hardware_amlogic_kernel-modules_mali-driver"
+           path="kernel/amlogic/kernel-modules/mali-driver"
+           remote="github" revision="lineage-22.1" />
+  <project name="LineageOS/android_hardware_amlogic_kernel-modules_media"
+           path="kernel/amlogic/kernel-modules/media-4.9"
+           remote="github" revision="lineage-22.1" />
+  <project name="LineageOS/android_hardware_amlogic_kernel-modules_optee"
+           path="kernel/amlogic/kernel-modules/optee"
+           remote="github" revision="lineage-22.1" />
+  <project name="TheMuppets/proprietary_vendor_amlogic_g12-common"
+           path="vendor/amlogic/g12-common"
+           remote="github" revision="lineage-22.1" clone-depth="1" />
+</manifest>
