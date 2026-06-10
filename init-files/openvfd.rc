@@ -1,5 +1,5 @@
 on early-fs
-    insmod /vendor/lib/modules/openvfd.ko
+    insmod /vendor/lib/modules/openvfd.ko vfd_gpio_clk=0,65,0 vfd_gpio_dat=0,64,0 vfd_gpio_stb=1,10,0 vfd_chars=4,0,1,2,3 vfd_dot_bits=0,1,2,3,4,5,6 vfd_display_type=0x02,0x00,0x01,0x00
 
 on boot
     chmod 666 /sys/class/leds/openvfd/brightness
@@ -12,3 +12,9 @@ service OpenVFDService /vendor/bin/OpenVFDService
     class main
     user root
     group root
+
+service vfd_av /system/bin/sh /vendor/bin/vfd_av_indicator.sh
+    class late_start
+    user root
+    group root
+    seclabel u:r:su:s0
