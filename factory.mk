@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-FACTORY_PATH := device/haochuangyi/h96_max_x3/factory
+FACTORY_PATH := device/shenzhen_amedia/x96air_p2/factory
 
 PRODUCT_INSTALL_OUT := $(PRODUCT_OUT)/aml_install
 PRODUCT_UPGRADE_OUT := $(PRODUCT_OUT)/aml_upgrade

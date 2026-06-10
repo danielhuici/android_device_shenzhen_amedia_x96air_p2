@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-ifneq ($(filter h96_max_x3, $(TARGET_DEVICE)),)
+ifneq ($(filter x96air_p2, $(TARGET_DEVICE)),)
 
 LOCAL_PATH := $(call my-dir)
 include $(call all-makefiles-under,$(LOCAL_PATH))

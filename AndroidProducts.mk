@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_h96_max_x3.mk \
+    $(LOCAL_DIR)/lineage_x96air_p2.mk \

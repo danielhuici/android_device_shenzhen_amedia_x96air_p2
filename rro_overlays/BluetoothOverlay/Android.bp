@@ -4,7 +4,7 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 runtime_resource_overlay {
-    name: "H96MaxX3BluetoothOverlay",
+    name: "X96AirP2BluetoothOverlay",
     resource_dirs: ["res"],
     sdk_version: "current",
     proprietary: true

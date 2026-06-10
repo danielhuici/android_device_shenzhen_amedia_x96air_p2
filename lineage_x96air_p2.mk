@@ -17,15 +17,15 @@ $(call inherit-product, vendor/lineage/config/common_full_tv.mk)
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_BRAND := Haochuangyi
-PRODUCT_DEVICE := h96_max_x3
-PRODUCT_MANUFACTURER := Haochuangyi
-PRODUCT_MODEL := H96 Max X3
-PRODUCT_NAME := lineage_h96_max_x3
+PRODUCT_BRAND := Shenzhen
+PRODUCT_DEVICE := x96air_p2
+PRODUCT_MANUFACTURER := Shenzhen Amedia Technologies
+PRODUCT_MODEL := X96 Air P2
+PRODUCT_NAME := lineage_x96air_p2
 
 PRODUCT_GMS_CLIENTID_BASE := android-droid-tv
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="adt3-user 13 TTT1.230205.001 9565391 release-keys" \
     BuildFingerprint=ADT-3/adt3/adt3:13/TTT1.230205.001/9565391:user/release-keys \
-    SystemName=h96_max_x3
+    SystemName=x96air_p2
