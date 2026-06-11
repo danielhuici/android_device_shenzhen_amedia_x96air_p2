@@ -1,7 +1,7 @@
-service remotecfg1 /vendor/bin/remotecfg -c /vendor/etc/remote.cfg -t /vendor/etc/remote-0xfe01.tab -d
+service remotecfg_x96air_1 /vendor/bin/remotecfg -c /vendor/etc/remote.cfg -t /vendor/etc/remote-0xfe01.tab -d
     class main
     oneshot
 
-service remotecfg2 /vendor/bin/remotecfg -c /vendor/etc/remote.cfg -t /vendor/etc/remote-0x7f80.tab -d
+service remotecfg_x96air_2 /vendor/bin/remotecfg -c /vendor/etc/remote.cfg -t /vendor/etc/remote-0x7f80.tab -d
     class main
     oneshot
